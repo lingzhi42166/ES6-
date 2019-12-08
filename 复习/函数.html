@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* 
+            （1）默认指向定义它时，所处上下文的对象的this指向。即ES6箭头函数里this的指向就是上下文里对象this指向，
+            偶尔没有上下文对象，this就指向window
+    
+            （2）即使是call，apply，bind等方法也不能改变箭头函数this的指向
+        */
+        function test() {
+            return function test2() {
+                console.log(this);
+                (() => {
+                    console.log(this);
+                })()
+            }
+        }
+        let fn = test();
+        // let fn2 = fn.bind(test);//bind 修改this指向  并返回修改后的函数
+        // fn2();//因为通过bind修改了test2的this指向  那么箭头函数又是定义在test2中的 也就是箭头函数定义的上下文是test2 又因为test2修改了this指向为test 箭头函数的this指向上下文的this对象 所以指向为test
+        fn.call(test);//call 执行该函数 并将其this指向为指定对象
+        fn();
+        
+
+    </script>
+</body>
+
+</html>

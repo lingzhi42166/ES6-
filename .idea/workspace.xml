@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21391776-45db-4875-a046-9287498071b9" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="es6" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1UCOYdy2bJnpT5f5VrcKCfPz8RW" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.1_let、const.js">
+    <configuration name="14、Iterator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ECMAScript6/js/14、Iterator.js" working-dir="$PROJECT_DIR$/ECMAScript6/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="1_let、const.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/复习/1_let、const.js" working-dir="$PROJECT_DIR$/复习">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.1_let、const.js" />
+        <item itemvalue="Node.js.14、Iterator.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21391776-45db-4875-a046-9287498071b9" name="Default" comment="" />
+      <created>1557241024597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557241024597</updated>
+      <workItem from="1557241025840" duration="3031000" />
+      <workItem from="1557293476300" duration="1085000" />
+      <workItem from="1557305619631" duration="71000" />
+      <workItem from="1557305704123" duration="123000" />
+      <workItem from="1557305841219" duration="23000" />
+      <workItem from="1557305879127" duration="282000" />
+      <workItem from="1557306178468" duration="693000" />
+      <workItem from="1557307552996" duration="897000" />
+      <workItem from="1557312276064" duration="8643000" />
+      <workItem from="1557386767222" duration="5398000" />
+      <workItem from="1557562024754" duration="3342000" />
+      <workItem from="1557582302200" duration="1240000" />
+      <workItem from="1557584795711" duration="424000" />
+      <workItem from="1557664937395" duration="1486000" />
+      <workItem from="1557667128000" duration="693000" />
+      <workItem from="1559302957713" duration="5000" />
+      <workItem from="1559828784404" duration="37000" />
+      <workItem from="1567950018986" duration="267000" />
+      <workItem from="1568203557497" duration="15000" />
+      <workItem from="1568357077858" duration="12000" />
+      <workItem from="1574857161207" duration="3346000" />
+      <workItem from="1575204537850" duration="27000" />
+      <workItem from="1575719422385" duration="2380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
