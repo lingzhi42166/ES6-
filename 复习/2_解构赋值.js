@@ -1,5 +1,5 @@
 /*
-* 分解解构并赋值
+* 分解结构并赋值
 *
 * */
 /*在ES6之前 我们想要获取数组或对象的值只能通过索引或着属性*/
@@ -38,15 +38,23 @@ let [a,b = 2] = [1];
 console.log(a,b);//1,2
 
 /*对象的解构赋值
-* 通过变量名一一对应
+* 通过变量名和属性名一一对应
+* 先找到同名属性，然后再赋给对应的变量。真正被赋值的是后者，而不是前者。
 * */
+
+
 let {name,age} = {name : "rick"};
 console.log(name, age);//rick undefined
 
 let {name2,age2=100} = {name2:"rick"};
 console.log(name2,age2);//rick 100
 
-//如果变量名和属性名不一样 我们就需要下面的写法
+//对象解构是下面写法的简写(对象的扩展=>允许直接写入变量和函数作为属性和方法) 先找到同名属性，然后再赋给对应的变量。真正被赋值的是后者，而不是前者。
+// let {name2,age2} 直接用变量作为属性名=> let {name2:name2,age2:age2} 
+let {name2:name2,age2:age2} = {name2:"Rick",age2:"19"};
+
+
+//如果变量名和属性名不一样 我们就需要下面的写法 
 let {name3:myname3,age3:myage3} = {name3:"Rick",age3:19};
 console.log(myname3,myage3);//Rick 19
 
