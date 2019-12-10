@@ -23,13 +23,13 @@
       <root url="file://$PROJECT_DIR$/dist/ECMAScript 6 入门/js/let.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/ECMAScript6/js/10、Map.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/ECMAScript6/js/11、for of.js" />
-      <root url="file://$PROJECT_DIR$/dist/dist/ECMAScript6/js/6、函数的拓展.js" />
-      <root url="file://$PROJECT_DIR$/dist/dist/dist/es6/js/12、Class.js" />
-      <root url="file://$PROJECT_DIR$/dist/dist/ECMAScript6/js/7、数组的拓展.js" />
-      <root url="file://$PROJECT_DIR$/dist/test.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/ECMAScript6/js/12、Class.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/ECMAScript6/js/5、字符串新增方法.js" />
+      <root url="file://$PROJECT_DIR$/dist/dist/ECMAScript6/js/6、函数的拓展.js" />
+      <root url="file://$PROJECT_DIR$/dist/dist/ECMAScript6/js/7、数组的拓展.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/ECMAScript6/js/9、set.js" />
+      <root url="file://$PROJECT_DIR$/dist/dist/dist/es6/js/12、Class.js" />
+      <root url="file://$PROJECT_DIR$/dist/test.js" />
     </CLASSES>
     <SOURCES />
   </library>
