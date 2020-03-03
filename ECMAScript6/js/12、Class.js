@@ -11,12 +11,15 @@
     在类里面定义方法 不需要function 可以直接使用对象方法的简写法  并且方法与方法之间不能用,隔开 否则报错
 */
 class Test {
+    //内部的方法都定义在该类的原型对象上
     constructor() {
+        //一旦new的该类 内部就调用该函数 并返回实例对象
         this.x = 1;
         this.y = 2;
         // return "string" 没效果
         // return {} 跟旧语法一样 只能返回一个对象 不是对象类型的都不会返回出去
     }
+    //下面这些函数都是定义在该类原型对象上的
     add() {
         return this.x + this.y;
     }
@@ -29,6 +32,8 @@ console.log(test.x, test.y);
 console.log(test.add());
 console.log(test.subtract());
 console.log(Test.prototype);
+console.log(test);//跟ES5中构造函数返回的实例对象一样
+console.log(test.__proto__);//该对象也可以通过__proto__
 
 /* 
     Object.assign方法可以很方便地一次向类添加多个方法
