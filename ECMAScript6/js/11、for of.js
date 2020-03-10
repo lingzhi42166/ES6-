@@ -19,6 +19,9 @@
         总结:
             for of 遍历数组和set的话 都是返回成员值
             如果遍历的是Map的话 返回的是一个数组 分别是键名和键值
+
+            只要是可迭代对象 内部都有[Symbol.iterator]函数
+            那么只要通过for of遍历 就会调用该对象上的[Symbol.iterator]函数 该函数就返回一个迭代器对象 也就是Iterator
 */
 
 
@@ -41,7 +44,7 @@ for(let value of arr){
 
 /*
     对象的遍历
-    好吧 现在还不知道怎么通过for of 遍历对象
+    看14、iterator.js
 
 console.log("==========对象的遍历==========");
 let obj = {

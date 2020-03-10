@@ -54,7 +54,10 @@ function makeIterator(array) {
         }
     }
 }
-
+// 普通对象数据结构没有Iterator 接口 自己手写一个实现
+// 那么实际上对象是没有length属性的 所以我们需要自己给对象挂载一个length供迭代器对象使用
+// 那么该对象如果需要用for of遍历的话  属性名就是0、1、2...
+// for of的原理机制 就是调用内部的[Symbol.iterator] 返回迭代器(iterator)对象 然后内部调用该对象的next方法
 let obj = {
     [Symbol.iterator]: function () {
         let nextIndex = 0;
@@ -74,20 +77,23 @@ let obj = {
         }
     },
     a: "a",
-    length: 1
+    0 : "0",
+    // length: 1
+    // length: 3
 };
 for (let i of obj) {
-    console.log(i)
+    console.log(i);
+    console.log(1);
 }
 // console.log(obj[Symbol.iterator]().next());
 
-for (let i in obj) {
-    console.log(i)
-}
+// for (let i in obj) {
+//     console.log(i)
+// }
 
-for (let i of arr) {
-    console.log(i);
-}
+// for (let i of arr) {
+//     console.log(i);
+// }
 
 arr.forEach((value, index, arr) => {
     console.log(value, index, arr);

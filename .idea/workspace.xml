@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21391776-45db-4875-a046-9287498071b9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/复习/2_解构赋值.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ECMAScript6/1、let.html" beforeDir="false" afterPath="$PROJECT_DIR$/ECMAScript6/1、let.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ECMAScript6/js/15、Generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/ECMAScript6/js/15、Generator.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +34,6 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1UCOYdy2bJnpT5f5VrcKCfPz8RW" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
-  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -124,6 +118,10 @@
       <workItem from="1575719422385" duration="2380000" />
       <workItem from="1575896329402" duration="98000" />
       <workItem from="1575952430161" duration="3062000" />
+      <workItem from="1583759467601" duration="365000" />
+      <workItem from="1583760502206" duration="121000" />
+      <workItem from="1583760634472" duration="57000" />
+      <workItem from="1583760722720" duration="782000" />
     </task>
     <servers />
   </component>
@@ -138,5 +136,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
