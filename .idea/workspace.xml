@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21391776-45db-4875-a046-9287498071b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ECMAScript6/1、let.html" beforeDir="false" afterPath="$PROJECT_DIR$/ECMAScript6/1、let.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ECMAScript6/js/15、Generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/ECMAScript6/js/15、Generator.js" afterDir="false" />
-    </list>
+    <list default="true" id="21391776-45db-4875-a046-9287498071b9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +118,7 @@
       <workItem from="1583760502206" duration="121000" />
       <workItem from="1583760634472" duration="57000" />
       <workItem from="1583760722720" duration="782000" />
+      <workItem from="1583836406192" duration="69000" />
     </task>
     <servers />
   </component>
